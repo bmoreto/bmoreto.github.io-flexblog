@@ -1,0 +1,40 @@
+body {
+  font-family: "Nunito", Helvetica, Arial, sans-serif;
+}
+
+.titulo {
+  font-size: 3rem;
+  line-height: 1;
+}
+
+.texto {
+  font-size: 1.25em;
+  line-height: 1.4;
+  color: #7c7c7c;
+}
+
+.subtitulo-produtos,
+.preco-categoria {
+  font-size: 3em;
+  color: #a4a4a4;
+}
+
+.preco-valor {
+  font-size: 3em;
+  font-weight: bold;
+}
+
+.preco-moeda {
+  font-size: 1.5rem;
+}
+
+.preco-lista {
+  font-size: 1.25em;
+  font-style: italic;
+  color: #7c7c7c;
+}
+
+.qualidade-titulo {
+  font-size: 2.25em;
+  color: #a4a4a4;
+}

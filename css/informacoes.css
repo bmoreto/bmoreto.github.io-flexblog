@@ -1,0 +1,10 @@
+.informacoes-bg {
+  background-color: #122ab2;
+  color: white;
+}
+
+.informacoes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}

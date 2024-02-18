@@ -1,0 +1,8 @@
+.qualidade-titulo {
+  margin-bottom: 20px;
+}
+
+.qualidade-item {
+  flex: 1 1 300px;
+  margin: 20px 10px;
+}
