@@ -1,17 +1,17 @@
 #sobre .titulo {
-  margin-bottom: 0.5em;
+  margin-bottom: 0.5rem;
 }
 
-.subtitulo-produtos {
-  padding: 60px 20px;
+#sobre .texto {
+  margin-bottom: 1rem;
 }
 
 .sobre {
   display: flex;
   flex-wrap: wrap;
-  padding: 60px 10px;
-  border-top: 2px solid #2c70ff;
-  border-bottom: 2px solid #2c70ff;
+  padding: 60px 0px;
+  border-top: 2px solid var(--p1);
+  border-bottom: 2px solid var(--p1);
 }
 
 .sobre-info {

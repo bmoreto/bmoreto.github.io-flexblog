@@ -1,10 +1,19 @@
 .informacoes-bg {
-  background-color: #122ab2;
-  color: white;
+  background-color: var(--p2);
+  color: var(--w);
+}
+
+.informacoes-bg a {
+  color: var(--w);
 }
 
 .informacoes {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  padding-top: 10px;
+}
+
+.informacoes li {
+  margin: 0 10px 10px 10px;
 }

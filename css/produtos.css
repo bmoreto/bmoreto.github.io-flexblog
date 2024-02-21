@@ -1,9 +1,14 @@
+.produtos {
+  margin: 60px auto;
+}
+
 #produtos .titulo {
   margin: 0 10px 60px 10px;
 }
 
 .subtitulo-produtos {
-  background: #f7f7f7;
+  background: var(--c4);
+  padding: 60px 20px;
 }
 
 .produtos-container {

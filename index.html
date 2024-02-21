@@ -5,19 +5,20 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>FlexBlog</title>
-  <link rel="stylesheet" href="./css/style.css">
+  <meta name="description" content="FlexBlog feito com css flex">
   <link href="https://fonts.googleapis.com/css?family=Nunito:400,400i,700" rel="stylesheet">
+  <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
   <div class="informacoes-bg">
     <ul class="informacoes container">
       <li>Seg/ Sexta - 08:00 às 18:00</li>
-      <li>+55 21 99999-9999</li>
+      <li><a href="tel+55219999999999">+55 21 99999-9999</a></li>
       <li>Av. Ali Perto, 330, Botafogo - RJ</li>
   </div>
 
-  <header class="header">
+  <header class="header-bg">
     <div class="menu container">
       <div class="menu-logo">
         <a href="#">FlexBlog</a>
@@ -45,10 +46,10 @@
       <p class="texto">O que temos que ter sempre em mente é que a determinação clara de objetivos afeta positivamente a correta previsão das condições inegavelmente apropriadas objetivos.</p>
     </div>
     <div class="sobre-img">
-      <img src="./img/sobre1.jpg">
+      <img src="./img/sobre1.jpg" alt="sobre 1">
     </div>
     <div class="sobre-img">
-      <img src="./img/sobre2.jpg">
+      <img src="./img/sobre2.jpg" alt="sobre 2">
     </div>
   </section>
 
@@ -58,17 +59,17 @@
     <div class="produtos-container">
       <div class="produtos-item purple">
         <h3 class="subtitulo-produtos">Purple</h3>
-        <img src="./img/produtos1.jpg">
+        <img src="./img/produtos1.jpg" alt="produto 1">
       </div>
 
       <div class="produtos-item pink">
         <h3 class="subtitulo-produtos">Pink</h3>
-        <img src="./img/produtos2.jpg">
+        <img src="./img/produtos2.jpg" alt="produto 2">
       </div>
 
       <div class="produtos-item blue">
         <h3 class="subtitulo-produtos">Blue</h3>
-        <img src="./img/produtos3.jpg">
+        <img src="./img/produtos3.jpg" alt="produto 3">
       </div>
     </div>
   </section>
@@ -122,7 +123,7 @@
 
   </section>
 
-  <section class="qualidade" id="qualidade">
+  <section class="qualidade container" id="qualidade">
     <div class="qualidade-item">
       <h3 class="qualidade-titulo">Inteligente</h3>
       <p class="texto">O que temos que ter sempre em mente é que a determinação clara de objetivos afeta positivamente a correta previsão</p>
@@ -152,9 +153,22 @@
       <h3 class="qualidade-titulo">Sustentável</h3>
       <p class="texto">O que temos que ter sempre em mente é que a determinação clara de objetivos afeta positivamente a correta previsão</p>
     </div>
-
-
   </section>
+
+  <section class="newsletter" id="newsletter">
+    <div class="newsletter-info">
+      <h2 class="titulo">Newsletter</h2>
+      <p class="texto">assine e fique por dentro das novidades</p>
+    </div>
+    <form class="newsletter-form">
+      <input type="text" placeholder="Seu e-mail">
+      <button type="submit">Assinar</button>
+    </form>
+  </section>
+
+  <footer class="footer">
+    <p class="footer-texto">FlexBlog © Todos os direitos reservados.</p>
+  </footer>
 
 </body>
 

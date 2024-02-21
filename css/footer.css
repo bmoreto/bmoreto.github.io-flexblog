@@ -1,0 +1,10 @@
+.footer {
+  display: flex;
+  background: var(--p1);
+  height: 200px;
+  align-items: center;
+}
+
+.footer-texto {
+  flex: 1;
+}

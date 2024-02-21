@@ -1,5 +1,5 @@
-.header {
-  background-color: #2c70ff;
+.header-bg {
+  background-color: var(--p1);
 }
 
 .menu {
@@ -11,22 +11,19 @@
 }
 
 .menu-logo a {
-  font-size: 2.25em;
-  font-weight: bold;
   margin: 0 10px;
 }
 
-.menu a {
-  color: white;
-}
-
-.menu-lista a {
-  font-size: 1.25em;
-  display: block;
-  padding: 10px;
+.menu-nav a:hover {
+  color: var(--p2);
 }
 
 .menu-lista {
   display: flex;
   flex-wrap: wrap;
+}
+
+.menu-lista a {
+  display: block;
+  padding: 10px;
 }

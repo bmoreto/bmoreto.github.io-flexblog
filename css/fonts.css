@@ -8,19 +8,32 @@ body {
 }
 
 .texto {
-  font-size: 1.25em;
+  font-size: 1.25rem;
   line-height: 1.4;
-  color: #7c7c7c;
+  color: var(--c2);
+}
+
+.menu-logo a {
+  font-size: 2.25em;
+  font-weight: bold;
+}
+
+.menu a {
+  color: var(--w);
+}
+
+.menu-lista a {
+  font-size: 1.25em;
 }
 
 .subtitulo-produtos,
 .preco-categoria {
-  font-size: 3em;
-  color: #a4a4a4;
+  font-size: 3rem;
+  color: var(--c3);
 }
 
 .preco-valor {
-  font-size: 3em;
+  font-size: 3rem;
   font-weight: bold;
 }
 
@@ -29,12 +42,37 @@ body {
 }
 
 .preco-lista {
-  font-size: 1.25em;
+  font-size: 1.25rem;
   font-style: italic;
-  color: #7c7c7c;
+  color: var(--c3);
 }
 
 .qualidade-titulo {
-  font-size: 2.25em;
-  color: #a4a4a4;
+  font-size: 2.25rem;
+  color: var(--c3);
+}
+
+.newsletter .texto {
+  font-style: italic;
+}
+
+.newsletter-form input {
+  font-size: 1.25rem;
+  color: var(--c1);
+  font-style: italic;
+  font-family: "Nunito", Helvetica, Arial, sans-serif;
+}
+
+.newsletter-form button {
+  font-family: "Nunito", Helvetica, Arial, sans-serif;
+  font-size: 2.25rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: var(--w);
+}
+
+.footer-texto {
+  text-align: center;
+  font-size: 2.25rem;
+  color: var(--p2);
 }
